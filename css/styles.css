@@ -1,0 +1,17 @@
+.big{
+  font-size: 70px;
+  font-style: normal:
+};
+.small{
+  font-size: 23px;
+  font-style: italic;
+};
+
+.answer{
+  padding-left: 40px;
+  float: right;
+}
+
+.output_1, .output_2 {
+  display: none;
+};
