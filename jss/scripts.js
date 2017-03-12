@@ -27,8 +27,11 @@ var engine = function(number){
 
 
 $(document).ready(function() {
-
-
+  $("form").submit(function(event){
+    event.preventDefault();
+    var number = parseInt($("#number"));
+    var result = engine(number);
+    $("#output").text(result);
 
 
 
