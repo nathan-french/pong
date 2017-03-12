@@ -1,13 +1,13 @@
 .big{
   font-size: 70px;
   font-style: normal:
-};
-.small{
-  font-size: 23px;
-  font-style: italic;
-};
 
-.answer{
-  padding-left: 40px;
+}
+
+.result{
+  font-size: 40px;
   float: right;
+  border: 3px;
+  font-style: italic;
+  color: red;
 }
