@@ -1,7 +1,14 @@
 
 //business stuff
 
-
+function range(lowEnd,highEnd){
+  var arr[];
+  i = highEnd - lowEnd + 1;
+  while (i--){
+    arr[i] = highEnd--
+  }
+  return arr;
+}
 
 
 var engine = function(number){
@@ -12,7 +19,7 @@ var engine = function(number){
   } else if (number % 15 === 0){
     return "pingpong";
   } else {
-    return //function for range
+    return range(1,number);
 
   }
 };
